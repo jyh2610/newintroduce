@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title></title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <section id="home">
+      <header class="container">
+        <p class="name">ChoYunHwan</p>
+      </header>
+      <ul class="nav">
+        <li>
+          <a href="#aboutme"
+            ><img class="radius imgnav" src="images/minion.webp"
+          /></a>
+          <p>aboutme</p>
+        </li>
+        <li>
+          <a href="#favorite"
+            ><img
+              class="imgnav"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWWnDi_rgz1FdtniIZxUh2WCQwIrX0kwDSdDlmzL4FCGaC-pMzE1Cw78_4AZ_-9xLM518&usqp=CAU"
+          /></a>
+          <p>Favorite</p>
+        </li>
+
+        <li>
+          <a href="#contact">
+            <img
+              class="imgnav"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3GVJqdQEnDRdAQkIUeVDSmhx37Oyf_Yjc3g&usqp=CAU"
+            />
+          </a>
+          <p>Contact</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="aboutme">
+      <div class="introduce">
+        <p>안녕하세요 매일 발전하는 개발자 되고 싶은 41기 조윤환입니다!</p>
+        <img class="meimg" src="images/me.jpeg" />
+      </div>
+    </section>
+
+    <section id="favorite">
+      <span>
+        <a href="#home"> <img class="gotohome" src="images/home.png" /></a>
+      </span>
+      <div class="block">
+        <img src="images/logo.png" />
+        <p class="basketball">Basketball</p>
+      </div>
+      <div class="favor-img">
+        <a href="https://www.nba.com/lakers"
+          ><img
+            class="foodimg"
+            src="data:image/png;base64,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"
+        /></a>
+        <a href="https://www.youtube.com/watch?v=FeXZY4eVLlo">
+          <img class="foodimg" src="images/kobe.jpeg" />
+        </a>
+        <a href="https://www.youtube.com/watch?v=O6UnAQtufvI">
+          <img class="foodimg" src="images/melo.jpeg" />
+        </a>
+        <a href="https://www.youtube.com/watch?v=b117a8_jALE">
+          <img class="foodimg" src="images/leb.jpeg" />
+        </a>
+        <a href="https://www.youtube.com/watch?v=41EFwuBqEUA">
+          <img class="foodimg" src="images/blake.jpeg" />
+        </a>
+      </div>
+      <div class="block">
+        <img class="" />
+        <p>food</p>
+      </div>
+      <div class="favor-img">
+        <a
+          href="https://map.naver.com/v5/entry/place/1227114216?c=14143437.3149433,4515268.7288089,13,0,0,0,dh&placePath=%2Fhome&entry=plt"
+        >
+          <img class="foodimg" src="images/ㅠㅕㄱㅎㄷㄱ.jpeg" />
+        </a>
+        <a
+          href="https://map.naver.com/v5/entry/place/1111031959?c=14147412.1554733,4516433.3450519,13,0,0,0,dh&placePath=%2Fhome&entry=plt"
+        >
+          <img class="foodimg" src="images/taco.jpeg" />
+        </a>
+        <a
+          href="https://map.naver.com/v5/search/%EC%A0%9C%EC%A3%BC%EB%8F%97/place/38414673?c=14051487.9113585,3939614.8780880,15,0,0,0,dh&entry=plt&placePath=%3Fentry%253Dbmp"
+        >
+          <img class="foodimg" src="images/meat2.jpeg" />
+        </a>
+        <a
+          href="https://map.naver.com/v5/entry/place/1573951163?c=14141633.6019731,4512508.4172454,13,0,0,0,dh&placePath=%2Fhome&entry=plt"
+        >
+          <img class="foodimg" src="images/donca.jpeg" />
+        </a>
+        <a href="">
+          <img class="foodimg" src="images/barbeq.jpeg" />
+        </a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contactframe">
+        <img
+          class="contact-img"
+          src="https://static.vecteezy.com/system/resources/previews/003/720/498/original/phone-icon-telephone-icon-symbol-for-app-and-messenger-vector.jpg"
+        />
+        <p class="number">01062582610</p>
+        <img class="contact-img" src="images/mail.png" />
+        <p class="number">jogg4177@gmail.com</p>
+      </div>
+    </section>
+  </body>
+  <script type="module" src="index.js"></script>
+</html>

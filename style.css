@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+.name {
+  display: flex;
+  font-size: 100px;
+  justify-content: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+ul {
+  list-style: none;
+}
+li {
+  padding: 0 10px;
+}
+
+.imgnav {
+  width: 150px;
+  height: 150px;
+}
+
+.radius {
+  border-radius: 8px;
+}
+.introduce {
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  margin-top: 120px;
+}
+
+.meimg {
+  width: 400px;
+  height: 500px;
+  border-radius: 70%;
+}
+
+.foodimg {
+  width: 170px;
+  height: 200px;
+}
+
+.favor-img {
+  display: flex;
+  justify-content: center;
+}
+
+.gotohome {
+  position: fixed;
+  top: 5px;
+  width: 40px;
+}
+
+.contact-img {
+  width: 120px;
+  height: 120px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+.block {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contactframe {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 600px;
+}
+
+.number {
+  margin-left: 0%;
+}
+
+#favorite {
+  margin-top: 100px;
+}
