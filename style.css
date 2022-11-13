@@ -74,13 +74,27 @@ section {
 .contactframe {
   display: flex;
   justify-content: space-around;
-  margin-top: 600px;
+  margin-top: 500px;
 }
 
 .number {
-  margin-left: 0%;
+  font-size: 50px;
 }
 
 #favorite {
   margin-top: 100px;
+}
+
+.fork {
+  width: 150px;
+  height: 130px;
+  margin-left: 10%;
+}
+
+.font-size {
+  font-size: 30px;
+}
+
+.btn {
+  margin-left: 30%;
 }
